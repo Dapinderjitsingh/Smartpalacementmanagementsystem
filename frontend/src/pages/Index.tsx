@@ -1,20 +1,18 @@
-import { Link } from "react-router-dom";
 import { Navbar } from "@/components/landing/Navbar";
 import { Button } from "@/components/ui/button";
-import {
-  Briefcase,
-  Users,
-  BarChart3,
-  FileText,
-  Building2,
-  GraduationCap,
-  ArrowRight,
-  CheckCircle2,
-  Mail,
-  Phone,
-  MapPin,
-} from "lucide-react";
 import { motion } from "framer-motion";
+import {
+  ArrowRight,
+  BarChart3,
+  Building2,
+  CheckCircle2,
+  FileText,
+  GraduationCap,
+  Mail,
+  MapPin,
+  Phone
+} from "lucide-react";
+import { Link } from "react-router-dom";
 
 const features = [
   {
@@ -104,10 +102,10 @@ export default function Index() {
       <section id="features" className="border-t bg-card py-20">
         <div className="container">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold">Everything You Need</h2>
+            <h2 className="text-3xl font-bold">
+              Smart Placement Portal</h2>
             <p className="mt-3 text-muted-foreground font-body max-w-lg mx-auto">
-              Built for the complete placement lifecycle — from job posting to
-              final offer.
+              Manage jobs, application and placements easily
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -224,5 +222,6 @@ export default function Index() {
         </div>
       </footer>
     </div>
+  
   );
 }

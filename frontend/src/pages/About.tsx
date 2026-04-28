@@ -1,5 +1,5 @@
 import { Navbar } from "@/components/landing/Navbar";
-import { Briefcase, Users, BarChart } from "lucide-react";
+import { BarChart, Briefcase, Users } from "lucide-react";
 
 export default function About() {
   return (
@@ -72,6 +72,7 @@ export default function About() {
         <p className="text-muted-foreground mt-4">
           Join Smart Placement today and explore opportunities.
         </p>
+<p>Updated UI for better user experience</p>
 
         <button className="mt-6 px-6 py-3 bg-primary text-white rounded-xl shadow hover:scale-105 transition">
           Get Started

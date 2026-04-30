@@ -2,6 +2,7 @@ import { createContext, useContext, useState, ReactNode, useCallback } from "rea
 
 export interface Job {
   id: number;
+  
   title: string;
   company: string;
   location: string;
